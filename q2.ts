@@ -1,5 +1,11 @@
 function arrayStringify(a) {
-  /* Your code here */
+  let s: string = '';
+  for (const i in a) {
+    if (typeof a[i] === 'number') {
+      s += a[i].toString();
+    }
+  }
+  return s;
 }
 
 const c1 = [1, 2, 3];

@@ -1,17 +1,23 @@
 {
   "name": "lab_02_answers",
   "version": "1.0.0",
-  "description": "",
+  "description": "### ป้อนข้อมูลนักศึกษา",
   "main": "index.js",
   "devDependencies": {
     "@babel/core": "*",
-    "babel-jest": "*",
     "@babel/preset-env": "*",
+    "babel-jest": "*",
     "jest": "^27.0.6"
   },
   "scripts": {
     "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "keywords": []
 }
