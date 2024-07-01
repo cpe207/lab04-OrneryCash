@@ -1,8 +1,8 @@
 function arrayStringify(a) {
   let s: string = '';
-  for (const i in a) {
-    if (typeof a[i] === 'number') {
-      s += a[i].toString();
+  for (const i of a) {
+    if (typeof i === 'number') {
+      s += i.toString();
     }
   }
   return s;
