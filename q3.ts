@@ -1,5 +1,5 @@
 function primeNumber(a) {
-  for (let i: number = 2; i < a ** 0.5; i++) {
+  for (let i: number = 2; i <= a ** 0.5; i++) {
     if (a % i === 0) {
       return "NO";
     }

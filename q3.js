@@ -1,5 +1,5 @@
 function primeNumber(a) {
-    for (var i = 2; i < Math.pow(a, 0.5); i++) {
+    for (var i = 2; i <= Math.pow(a, 0.5); i++) {
         if (a % i === 0) {
             return "NO";
         }
